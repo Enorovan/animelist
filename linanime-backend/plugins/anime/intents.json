@@ -1,0 +1,43 @@
+[{
+    "subject": "animeGenre",
+    "sentences": ["Quel sont les anime du genre (.*)", "Donne moi les anime du genre (.*)"],
+    "responses": [""],
+    "value": 0,
+    "type": "action"
+}, {
+    "subject": "animeRecent",
+    "sentences": ["Quel sont les derniers animes", "Donne moi les derniers animes"],
+    "responses": [""],
+    "value": 0,
+    "type": "action"
+}, {
+    "subject": "animeTitle",
+    "sentences": ["Quel sont les anime avec un titre (.*)", "Donne moi les anime avec un titre (.*)"],
+    "responses": [""],
+    "value": 0,
+    "type": "action"
+}, {
+    "subject": "mangaGenre",
+    "sentences": ["Quel sont les manga du genre (.*)", "Donne moi les manga du genre (.*)"],
+    "responses": [""],
+    "value": 0,
+    "type": "action"
+}, {
+    "subject": "mangaRecent",
+    "sentences": ["Quel sont les derniers manga", "Donne moi les derniers manga"],
+    "responses": [""],
+    "value": 0,
+    "type": "action"
+}, {
+    "subject": "mangaTitle",
+    "sentences": ["Quel sont les manga avec un titre (.*)", "Donne moi les manga avec un titre (.*)"],
+    "responses": [""],
+    "value": 0,
+    "type": "action"
+}, {
+    "subject": "recentEpisode",
+    "sentences": ["Quel sont les derniers episodes", "Donne moi les derniers episodes"],
+    "responses": [""],
+    "value": 0,
+    "type": "action"
+}]

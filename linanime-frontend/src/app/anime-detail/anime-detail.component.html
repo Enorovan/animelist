@@ -1,0 +1,13 @@
+<mat-card class="custom-card" matTooltipClass="tooltip" [matTooltip]="anime.attributes.synopsis" >
+    <mat-card-header>
+        <mat-card-title style="font-size: 10px;">
+            {{anime.attributes.canonicalTitle}}
+        </mat-card-title>
+    </mat-card-header>
+    <img class="header-image" mat-card-image [src]="anime.attributes.posterImage.original" alt="Poster of the Anime">
+    <!-- <mat-card-content>
+        <p style="font-size: 7px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;">
+            {{anime.attributes.synopsis}}
+        </p>
+    </mat-card-content> -->
+</mat-card>

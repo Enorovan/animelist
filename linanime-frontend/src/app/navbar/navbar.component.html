@@ -1,0 +1,12 @@
+<nav>
+    <ul (mouseout)="changeTextAccueil=false || changeTextAssistant=false">
+      <li (mouseover)="changeTextAccueil=true">
+          <a *ngIf="!changeTextAccueil" routerLink="/home" routerLinkActive="active">ACCUEIL</a>
+          <a *ngIf="changeTextAccueil" routerLink="/home" routerLinkActive="active" style="font-size: 16px;">ホームページ</a>
+      </li>
+      <li (mouseover)="changeTextAssistant=true">
+          <a *ngIf="!changeTextAssistant" routerLink="/assistant" routerLinkActive="active">ASSISTANT</a>
+          <a *ngIf="changeTextAssistant" routerLink="/assistant" routerLinkActive="active" style="font-size: 16px;">アシスタント</a>
+      </li>
+    </ul>
+</nav>
